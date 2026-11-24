@@ -1,7 +1,7 @@
 # Execution evidence
 
-Date: November 24, 2026 (Asia/Bangkok). This is a local portfolio build;
-no GitHub repository has been created and no code has been pushed.
+Date: November 24, 2026 (Asia/Bangkok). This records the verified local portfolio
+build and its subsequent user-approved GitHub publication.
 
 ## Environment and data
 
@@ -82,9 +82,24 @@ reproducibility records; it did not independently execute commands. It confirmed
 the screenshot files via image metadata but could not inspect their pixels.
 Codex separately inspected the actual browser captures and all five plot images.
 The local secret-pattern scan passed; the intended remote was verified locally.
-These checks do not establish remote publication. Publication still requires
-separate user approval.
+These local review checks are separate from the remote publication verification
+recorded below.
 
 Known limitations are documented in the README: historical public sample,
 random rather than temporal validation, class imbalance, limited recall,
 uncalibrated probabilities and no production/business-effect claims.
+
+## Approved GitHub publication
+
+The user explicitly approved creating the public repository and pushing the
+completed project. GitHub authentication confirmed the account
+`nguyenbao140506-debug` before publication.
+
+- Repository: https://github.com/nguyenbao140506-debug/customer-churn-ml-pipeline
+- Visibility: PUBLIC; default branch: `main`.
+- Published implementation commit: `2812059c480e6833c35a6c227995f48ae7644175`.
+- GitHub API verification confirmed that the remote implementation commit
+  matched the local commit and that all 40 tracked files were present, including
+  source, saved model, evaluation results, figures and three real screenshots.
+- The virtual environment, local tooling, raw dataset and temporary logs remain
+  excluded. This documentation update records publication after that verification.
