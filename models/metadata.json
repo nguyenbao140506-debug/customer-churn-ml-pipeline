@@ -1,0 +1,39 @@
+{
+  "selected_model": "Logistic Regression",
+  "selection_rule": "Highest mean training-only 3-fold CV ROC-AUC",
+  "threshold": 0.5,
+  "seed": 42,
+  "features": [
+    "tenure",
+    "MonthlyCharges",
+    "TotalCharges",
+    "gender",
+    "SeniorCitizen",
+    "Partner",
+    "Dependents",
+    "PhoneService",
+    "MultipleLines",
+    "InternetService",
+    "OnlineSecurity",
+    "OnlineBackup",
+    "DeviceProtection",
+    "TechSupport",
+    "StreamingTV",
+    "StreamingMovies",
+    "Contract",
+    "PaperlessBilling",
+    "PaymentMethod"
+  ],
+  "fitted_on": "5634 training rows only; test partition never fitted",
+  "model_sha256": "fbd20dd469dece00d26fbf5a1e4a73dd861d640e2e53bf6a1b4b18ce7c95808b",
+  "dataset_sha256": "16320c9c1ec72448db59aa0a26a0b95401046bef5d02fd3aeb906448e3055e91",
+  "python": "3.13.12",
+  "versions": {
+    "pandas": "3.0.3",
+    "numpy": "2.4.6",
+    "scikit-learn": "1.9.0",
+    "matplotlib": "3.10.9",
+    "streamlit": "1.67.0",
+    "joblib": "1.5.3"
+  }
+}

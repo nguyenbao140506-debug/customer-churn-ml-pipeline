@@ -1,0 +1,8 @@
+Logistic Regression training CV ROC-AUC: 0.845806
+Random Forest training CV ROC-AUC: 0.835426
+Selected BEFORE test evaluation: Logistic Regression
+              model  cv_roc_auc  accuracy  precision   recall       f1  roc_auc
+Logistic Regression    0.845806  0.805536   0.657233 0.558824 0.604046 0.841871
+      Random Forest    0.835426  0.798439   0.658451 0.500000 0.568389 0.834296
+  Majority baseline         NaN  0.734564   0.000000 0.000000 0.000000 0.500000
+Saved pipeline reload: predictions and probabilities match.
